@@ -1,0 +1,82 @@
+body{
+    background-color: whitesmoke;
+}
+.container{
+    margin: auto;
+    margin-top: 50px;
+}
+.btn-link{
+    text-decoration: none;
+    color: #C0C0C0;
+    background-color: white;
+    padding: 10px;
+    border:none;
+    outline: none;	
+    font-family: "Fira code";
+}
+.popup-box{
+    position: fixed;
+    bottom: 0;
+    right: 50px;
+    width: 250px;
+    height:300px;
+    background-color: transparent;
+    border: 5px solid dodgerblue;
+}
+.popup-navbar{
+    position: relative;
+    margin: auto;
+    height: 50px;
+    width: 250px;
+    background-color: dodgerblue;
+}
+.popup-navbar > span{
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    font-family: "AR DESTINE";
+    font-size: 20px;
+}
+.popup-navbar > a{
+    text-align: right;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+
+}            
+.popup-board{
+    position: relative;
+    height: 200px;
+    width: 250px;
+    background-color:aliceblue;
+    overflow-y: scroll;
+    word-wrap: break-word;
+}
+.popup-keyboard{
+    position: relative;                
+    height: 200px;
+    width: 250px;
+    background-color:transparent;                
+}
+.form-input{
+    width: 220px;
+    border: 5px solid dodgerblue;
+    font-family: "Fira code";
+    font-size: 24px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    outline: none;
+}
+p{
+    width: 100%;
+    text-align: center;
+    font-family: "AR DESTINE";
+    font-size: 20px;
+    color: #A0A0A0;
+}
